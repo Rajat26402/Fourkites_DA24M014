@@ -71,10 +71,10 @@ Both models share the same architecture; BN is the only difference.
 BatchNorm improves both training stability and generalization.
 
 **Model A1 (with BN)**  
-![Model A1](figures/P1A.png)
+![Model A1](P1A.png)
 
 **Model B (no BN)**  
-![Model B](figures/P1B.png)
+![Model B](P1B.png)
 
 ---
 
@@ -101,14 +101,14 @@ BN appears **sharper**, contradicting the naive “flat minima generalize best�
 ### 🔹 4. 1D Loss Slice  
 Shows local geometry around the minima.
 
-![1D Slice](figures/P2.png)
+![1D Slice](P2.png)
 
 ---
 
 ### 🔹 5. Mode Connectivity (A1 ↔ A2)  
 Linear interpolation reveals a **loss barrier**, meaning the minima lie in different basins.
 
-![Mode Connectivity](figures/P3.png)
+![Mode Connectivity](P3.png)
 
 ---
 
